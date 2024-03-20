@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+}
+
+/* Estilos para el botón del menú */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #555;
+}
+
+/* Estilos para el contenido del menú desplegable */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.show {
+  display: block;
+}
+
+#map {
+  align-items: grid;
+  justify-content: center;
+  height: 150px;
+  width: 250px;
+  border: 2px solid rgb(0, 195, 255);
+}
+
+#content {
+  display: flex;
+  background-color: rgb(7, 209, 209);
+}
+
+img {
+  border: 2px solid rgb(0, 183, 255);
+  border-radius: 50%;
+  width: 80px;
+  height: 70px;
+}/*# sourceMappingURL=style.css.map */
