@@ -1,0 +1,95 @@
+@charset "UTF-8";
+#api2 {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  background: rgb(19, 172, 172);
+  color: rgb(5, 189, 103);
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+#api2 img {
+  width: 100%; /* Ajusta el tamaño de la imagen según lo necesites */
+  height: auto; /* Permite que la imagen se ajuste proporcionalmente */
+  border-radius: 50%; /* Hace que la imagen tenga bordes redondeados */
+}
+
+#api2:hover {
+  text-decoration: none;
+  color: rgb(33, 161, 119);
+  background: rgb(8, 243, 243);
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+}
+
+/* Estilos para el botón del menú */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #555;
+}
+
+/* Estilos para el contenido del menú desplegable */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.show {
+  display: block;
+}
+
+#content {
+  display: flex;
+  background-color: rgb(7, 209, 209);
+}
+
+img {
+  border: 2px solid rgb(0, 183, 255);
+  border-radius: 50%;
+  width: 80px;
+  height: 70px;
+}/*# sourceMappingURL=style.css.map */
